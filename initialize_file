@@ -1,0 +1,16 @@
+scg_ip1 172.16.20.40 
+scg_ip2 172.16.20.41 
+scguser admin
+scgpass Ruckus350! 
+scg_enablepass Ruckus350! 
+tftp_addr 172.16.110.124 
+http_addr  172.16.110.124
+scp_addr  172.16.110.124
+monitor_interval 1800
+tftp_dir /opt/tftpboot/
+scp_dir /home/rms/scg_rms
+working_dir /home/rms/video54_rms
+report_dir /var/www/video54status/dailystatus
+html_dir video54status/dailystatus
+apstats_dir /var/www/video54status/apstats
+clientstats_dir  /var/www/video54status/clientstats
